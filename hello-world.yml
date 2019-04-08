@@ -1,0 +1,4 @@
+- hosts: ubuntu
+  tasks:
+  - name: echo hello world
+    shell: "echo hello world"
